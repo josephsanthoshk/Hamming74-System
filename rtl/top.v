@@ -9,7 +9,7 @@ module hamming74_system(
     output [2:0] syndrome,
     output [3:0] corrected_data
 );
-
+ 
     // Internal wires
     wire [6:0] encoded_wire;
     wire [6:0] corrupted_wire;
