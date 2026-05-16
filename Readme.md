@@ -96,30 +96,8 @@ Example:
 
 # System Architecture
 
-```text
-         +---------+
-Input -->| Encoder |
-         +---------+
-               |
-               v
-       Encoded Codeword
-               |
-               v
-      +----------------+
-      | Error Injector |
-      +----------------+
-               |
-               v
-      Corrupted Codeword
-               |
-               v
-         +---------+
-         | Decoder |
-         +---------+
-               |
-               v
-      Corrected Output
-```
+<img width="1367" height="601" alt="image" src="https://github.com/user-attachments/assets/27e4666d-2dc2-4a22-9587-8786c0d4168c" />
+
 
 ---
 
